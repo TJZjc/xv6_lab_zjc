@@ -1,0 +1,125 @@
+2023-08-05 14:55:07.006 [info] 
+
+
+
+
+2023-08-05 14:55:07.037 [info] Extension host agent started.
+2023-08-05 14:55:07.176 [info] Deleted uninstalled extension from disk ms-ceintl.vscode-language-pack-zh-hans /home/zjc/.vscode-server/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.80.2023071209
+2023-08-05 14:55:07.176 [info] Deleted uninstalled extension from disk ms-ceintl.vscode-language-pack-zh-hans /home/zjc/.vscode-server/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.81.2023080209
+2023-08-05 14:55:08.373 [info] [127.0.0.1][4828f980][ManagementConnection] New connection established.
+2023-08-05 14:55:08.482 [info] [127.0.0.1][c5e64ca3][ExtensionHostConnection] New connection established.
+2023-08-05 14:55:08.507 [info] Installing extensions...
+2023-08-05 14:55:09.652 [error] TypeError: Cannot read properties of undefined (reading 'cwd')
+    at g.I (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:28:941)
+    at g.reviveTerminalProcesses (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:28:795)
+    at g.B.<computed> (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:27:22689)
+    at Object.call (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:17:4867)
+    at l.s (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at l.q (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at k.w (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at k.fire (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.X (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:8:27134)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-08-05 14:55:09.724 [info] [127.0.0.1][c5e64ca3][ExtensionHostConnection] <143> Launched Extension Host Process.
+2023-08-05 14:55:11.216 [info] Installing extension 'ms-ceintl.vscode-language-pack-zh-hans'...
+2023-08-05 14:55:11.217 [info] Getting Manifest... ms-ceintl.vscode-language-pack-zh-hans
+2023-08-05 14:55:11.483 [info] Installing extension: ms-ceintl.vscode-language-pack-zh-hans
+2023-08-05 14:55:14.255 [warning] Extension signature verification failed with error 'ENOENT': ms-ceintl.vscode-language-pack-zh-hans
+2023-08-05 14:55:14.433 [info] Extracted extension to file:///home/zjc/.vscode-server/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.81.2023080209: ms-ceintl.vscode-language-pack-zh-hans
+2023-08-05 14:55:14.477 [info] Renamed to /home/zjc/.vscode-server/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.81.2023080209
+2023-08-05 14:55:14.482 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-zh-hans
+2023-08-05 14:55:14.533 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-zh-hans
+2023-08-05 14:55:14.645 [info] Marked extension as uninstalled ms-ceintl.vscode-language-pack-zh-hans-1.81.2023080209
+2023-08-05 14:55:14.790 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-zh-hans
+2023-08-05 14:55:14.791 [info] Extension 'ms-ceintl.vscode-language-pack-zh-hans' v1.81.2023080209 was successfully installed.
+2023-08-05 15:11:19.370 [error] Error: read ETIMEDOUT
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+2023-08-05 15:57:04.086 [info] [127.0.0.1][4828f980][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-08-05 15:57:04.090 [error] Error: Throttler is disposed
+    at r.queue (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:13612)
+    at /home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:15183
+    at /home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-05 15:57:04.092 [error] Error: Throttler is disposed
+    at r.queue (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:13612)
+    at /home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:15183
+    at /home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-05 15:57:04.093 [error] Error: Throttler is disposed
+    at r.queue (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:13612)
+    at /home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:15183
+    at /home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-05 15:57:04.094 [error] Error: Throttler is disposed
+    at r.queue (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:13612)
+    at /home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:15183
+    at /home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-05 15:57:04.094 [error] Error: Throttler is disposed
+    at r.queue (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:13612)
+    at /home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:15183
+    at /home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-05 15:57:04.094 [error] Error: Throttler is disposed
+    at r.queue (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:13612)
+    at /home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:15183
+    at /home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-05 15:57:04.095 [error] Error: Throttler is disposed
+    at r.queue (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:13612)
+    at /home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:15183
+    at /home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-05 15:57:04.095 [error] Error: Throttler is disposed
+    at r.queue (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:13612)
+    at /home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:15183
+    at /home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-05 15:57:04.096 [error] Error: Throttler is disposed
+    at r.queue (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:13612)
+    at /home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:15183
+    at /home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-05 15:57:04.096 [error] Error: Throttler is disposed
+    at r.queue (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:13612)
+    at /home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:15183
+    at /home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-05 15:57:04.097 [error] Error: Throttler is disposed
+    at r.queue (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:13612)
+    at /home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:15183
+    at /home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-05 15:57:04.097 [error] Error: Throttler is disposed
+    at r.queue (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:13612)
+    at /home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:15183
+    at /home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-08-05 15:57:04.308 [info] [127.0.0.1][c5e64ca3][ExtensionHostConnection] <143> Extension Host Process exited with code: 0, signal: null.

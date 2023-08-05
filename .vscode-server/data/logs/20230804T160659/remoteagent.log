@@ -1,0 +1,53 @@
+2023-08-04 16:06:59.463 [info] 
+
+
+
+
+2023-08-04 16:06:59.621 [info] Extension host agent started.
+2023-08-04 16:06:59.838 [info] [127.0.0.1][b014a8ed][ManagementConnection] New connection established.
+2023-08-04 16:07:00.188 [info] [127.0.0.1][ee2ca782][ExtensionHostConnection] New connection established.
+2023-08-04 16:07:01.080 [info] [127.0.0.1][ee2ca782][ExtensionHostConnection] <95> Launched Extension Host Process.
+2023-08-04 16:07:01.979 [error] TypeError: Cannot read properties of undefined (reading 'cwd')
+    at g.I (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:28:941)
+    at g.reviveTerminalProcesses (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:28:795)
+    at g.B.<computed> (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:27:22689)
+    at Object.call (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:17:4867)
+    at l.s (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at l.q (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at k.w (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at k.fire (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.X (/home/zjc/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/platform/terminal/node/ptyHostMain.js:8:27134)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-08-04 16:07:09.698 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/zjc/.vscode-server/data/logs/20230731T175156/exthost1/vscode.github' failed: No such file or directory (EUNKNOWN) (path: /home/zjc)
+2023-08-04 16:07:09.699 [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/zjc/.vscode-server/data/logs/20230731T175156/exthost1/vscode.github' failed: No such file or directory
+2023-08-04 16:07:12.905 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
+2023-08-04 16:07:19.524 [info] Getting Manifest... ms-ceintl.vscode-language-pack-zh-hans
+2023-08-04 16:07:19.525 [info] Getting Manifest... ms-ceintl.vscode-language-pack-zh-hans
+2023-08-04 16:07:39.548 [error] Failed to install extension. ms-ceintl.vscode-language-pack-zh-hans
+2023-08-04 16:07:39.548 [error] Error: getaddrinfo EAI_AGAIN ms-ceintl.gallery.vsassets.io
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
+2023-08-04 16:07:39.555 [error] Failed to install extension. ms-ceintl.vscode-language-pack-zh-hans
+2023-08-04 16:07:39.556 [error] Error: getaddrinfo EAI_AGAIN ms-ceintl.gallery.vsassets.io
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
+2023-08-04 16:07:41.304 [info] Downloaded extension to file:///home/zjc/.vscode-server/data/CachedExtensionVSIXs/06df8218-09fe-4e8c-b264-a292376560da
+2023-08-04 16:07:41.318 [info] Installing extension: ms-ceintl.vscode-language-pack-zh-hans
+2023-08-04 16:07:41.319 [info] Installing the extension without checking dependencies and pack ms-ceintl.vscode-language-pack-zh-hans
+2023-08-04 16:07:41.347 [info] Downloaded extension to file:///home/zjc/.vscode-server/data/CachedExtensionVSIXs/65551058-e7bd-41cf-8592-241c2ed8de06
+2023-08-04 16:07:41.354 [info] Installing extension: ms-ceintl.vscode-language-pack-zh-hans
+2023-08-04 16:07:41.355 [info] Installing the extension without checking dependencies and pack ms-ceintl.vscode-language-pack-zh-hans
+2023-08-04 16:07:41.584 [info] Extracted extension to file:///home/zjc/.vscode-server/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.81.2023080209: ms-ceintl.vscode-language-pack-zh-hans
+2023-08-04 16:07:41.595 [info] Extracted extension to file:///home/zjc/.vscode-server/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.81.2023080209: ms-ceintl.vscode-language-pack-zh-hans
+2023-08-04 16:07:41.645 [info] Renamed to /home/zjc/.vscode-server/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.81.2023080209
+2023-08-04 16:07:41.647 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-zh-hans
+2023-08-04 16:07:41.700 [info] Rename failed because extension was installed by another source. So ignoring renaming. ms-ceintl.vscode-language-pack-zh-hans
+2023-08-04 16:07:41.703 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-zh-hans
+2023-08-04 16:07:41.744 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-zh-hans
+2023-08-04 16:07:41.825 [info] Marked extension as uninstalled ms-ceintl.vscode-language-pack-zh-hans-1.80.2023071209
+2023-08-04 16:07:41.961 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-zh-hans
+2023-08-04 16:07:41.965 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-zh-hans
+2023-08-04 16:07:42.028 [info] Marked extension as uninstalled ms-ceintl.vscode-language-pack-zh-hans-1.81.2023080209
+2023-08-04 16:07:42.140 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-zh-hans

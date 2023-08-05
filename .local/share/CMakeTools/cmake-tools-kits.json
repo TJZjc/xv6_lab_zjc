@@ -1,0 +1,25 @@
+[
+  {
+    "name": "GCC 9.3.0 riscv64-unknown-elf",
+    "compilers": {
+      "C": "/usr/bin/riscv64-unknown-elf-gcc",
+      "CXX": "/usr/bin/riscv64-unknown-elf-g++"
+    },
+    "isTrusted": true
+  },
+  {
+    "name": "GCC 9.4.0 riscv64-linux-gnu",
+    "compilers": {
+      "C": "/usr/bin/riscv64-linux-gnu-gcc"
+    },
+    "isTrusted": true
+  },
+  {
+    "name": "GCC 9.4.0 x86_64-linux-gnu",
+    "compilers": {
+      "C": "/usr/bin/gcc",
+      "CXX": "/usr/bin/g++"
+    },
+    "isTrusted": true
+  }
+]

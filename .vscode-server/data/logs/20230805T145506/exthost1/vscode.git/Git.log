@@ -1,0 +1,68 @@
+2023-08-05 14:55:17.296 [info] 日志级别: Info
+2023-08-05 14:55:17.296 [info] 正在验证在以下位置找到的 git: "git"
+2023-08-05 14:55:17.419 [info] 将使用位于 "2.25.1" 的 Git "git"
+2023-08-05 14:55:17.439 [info] > git rev-parse --show-toplevel [2ms]
+2023-08-05 14:55:17.439 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-05 14:55:17.695 [info] > git rev-parse --show-toplevel [252ms]
+2023-08-05 14:55:17.695 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-05 14:55:17.721 [info] > git rev-parse --show-toplevel [9ms]
+2023-08-05 14:55:17.721 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-05 14:55:17.728 [info] > git rev-parse --show-toplevel [2ms]
+2023-08-05 14:55:17.728 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-05 14:55:17.733 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-05 14:55:17.733 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-05 14:55:17.743 [info] > git rev-parse --show-toplevel [5ms]
+2023-08-05 14:55:17.743 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-05 14:55:17.923 [info] > git rev-parse --show-toplevel [175ms]
+2023-08-05 14:55:17.923 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-05 14:55:18.361 [info] > git rev-parse --show-toplevel [432ms]
+2023-08-05 14:55:18.650 [info] > git rev-parse --git-dir --git-common-dir [209ms]
+2023-08-05 14:55:18.679 [info] Open repository: /home/zjc/xv6-labs-1-2
+2023-08-05 14:55:18.760 [info] > git rev-parse --show-toplevel [12ms]
+2023-08-05 14:55:18.761 [info] > git config --get commit.template [36ms]
+2023-08-05 14:55:18.780 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2023-08-05 14:55:18.785 [info] Open repository: /home/zjc/xv6-labs-10
+2023-08-05 14:55:18.800 [info] > git config --get commit.template [5ms]
+2023-08-05 14:55:18.847 [info] > git rev-parse --show-toplevel [38ms]
+2023-08-05 14:55:18.858 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-08-05 14:55:18.864 [info] Open repository: /home/zjc/xv6-labs-2021
+2023-08-05 14:55:18.876 [info] > git config --get commit.template [3ms]
+2023-08-05 14:55:18.896 [info] > git rev-parse --show-toplevel [6ms]
+2023-08-05 14:55:18.896 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-05 14:55:18.928 [info] > git rev-parse --show-toplevel [16ms]
+2023-08-05 14:55:18.928 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-05 14:55:18.952 [info] > git rev-parse --show-toplevel [11ms]
+2023-08-05 14:55:18.952 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-05 14:55:18.971 [info] > git rev-parse --show-toplevel [3ms]
+2023-08-05 14:55:18.971 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-05 14:55:18.983 [info] > git rev-parse --show-toplevel [3ms]
+2023-08-05 14:55:18.983 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-05 14:55:18.994 [info] > git rev-parse --show-toplevel [3ms]
+2023-08-05 14:55:18.994 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-05 14:55:19.016 [info] > git rev-parse --show-toplevel [11ms]
+2023-08-05 14:55:19.017 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-05 14:55:19.020 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/mmap refs/remotes/mmap [200ms]
+2023-08-05 14:55:19.027 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/syscall refs/remotes/syscall [142ms]
+2023-08-05 14:55:19.033 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/syscall refs/remotes/syscall [266ms]
+2023-08-05 14:55:19.044 [info] > git status -z -uall [18ms]
+2023-08-05 14:55:19.083 [info] > git status -z -uall [50ms]
+2023-08-05 14:55:19.083 [info] > git config --get commit.template [16ms]
+2023-08-05 14:55:19.113 [info] > git config --get commit.template [13ms]
+2023-08-05 14:55:19.116 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/mmap refs/remotes/mmap [5ms]
+2023-08-05 14:55:19.129 [info] > git status -z -uall [9ms]
+2023-08-05 14:55:19.130 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/syscall refs/remotes/syscall [3ms]
+2023-08-05 14:55:19.139 [info] > git status -z -uall [99ms]
+2023-08-05 14:55:19.139 [info] > git status -z -uall [6ms]
+2023-08-05 14:55:19.158 [info] > git config --get commit.template [5ms]
+2023-08-05 14:55:19.168 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/syscall refs/remotes/syscall [2ms]
+2023-08-05 14:55:19.175 [info] > git status -z -uall [2ms]
+2023-08-05 14:55:19.508 [info] > git check-ignore -v -z --stdin [25ms]
+2023-08-05 15:55:58.408 [info] > git check-ignore -v -z --stdin [1ms]
+2023-08-05 15:56:02.090 [info] > git check-ignore -v -z --stdin [2ms]
+2023-08-05 15:56:02.978 [info] > git check-ignore -v -z --stdin [5ms]
+2023-08-05 15:56:05.741 [info] > git check-ignore -v -z --stdin [3ms]
+2023-08-05 15:56:08.278 [info] > git show --textconv :kernel/fs.c [6ms]
+2023-08-05 15:56:08.278 [info] > git ls-files --stage -- /home/zjc/xv6-labs-10/kernel/fs.c [2ms]
+2023-08-05 15:56:08.286 [info] > git cat-file -s 40c9bd47da94f1fc890113466692578f1ccb03aa [2ms]
+2023-08-05 15:56:10.173 [info] > git check-ignore -v -z --stdin [6ms]
+2023-08-05 15:56:11.284 [info] > git check-ignore -v -z --stdin [16ms]

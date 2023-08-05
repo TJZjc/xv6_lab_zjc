@@ -1,0 +1,73 @@
+2023-08-02 14:49:01.046 [info] 日志级别: Info
+2023-08-02 14:49:01.046 [info] 正在验证在以下位置找到的 git: "git"
+2023-08-02 14:49:01.046 [info] 将使用位于 "2.25.1" 的 Git "git"
+2023-08-02 14:49:01.046 [info] > git rev-parse --show-toplevel [437ms]
+2023-08-02 14:49:01.046 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-02 14:49:01.058 [info] > git rev-parse --show-toplevel [33ms]
+2023-08-02 14:49:01.330 [info] > git rev-parse --git-dir --git-common-dir [263ms]
+2023-08-02 14:49:01.339 [info] Open repository: /home/zjc/xv6-labs-7/xv6-labs-2021
+2023-08-02 14:49:01.365 [info] > git rev-parse --show-toplevel [19ms]
+2023-08-02 14:49:01.365 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-02 14:49:01.379 [info] > git rev-parse --show-toplevel [9ms]
+2023-08-02 14:49:01.380 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-02 14:49:01.385 [info] > git config --get commit.template [34ms]
+2023-08-02 14:49:01.584 [info] > git rev-parse --show-toplevel [199ms]
+2023-08-02 14:49:01.584 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-02 14:49:01.817 [info] > git rev-parse --show-toplevel [215ms]
+2023-08-02 14:49:01.817 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-02 14:49:01.848 [info] > git rev-parse --show-toplevel [6ms]
+2023-08-02 14:49:01.848 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-02 14:49:01.900 [info] > git rev-parse --show-toplevel [39ms]
+2023-08-02 14:49:01.900 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-02 14:49:01.907 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/net refs/remotes/net [151ms]
+2023-08-02 14:49:01.981 [info] > git status -z -uall [66ms]
+2023-08-02 14:49:01.981 [info] > git check-ignore -v -z --stdin [58ms]
+2023-08-02 14:49:02.005 [info] > git rev-parse --show-toplevel [99ms]
+2023-08-02 14:49:02.038 [info] > git rev-parse --git-dir --git-common-dir [27ms]
+2023-08-02 14:49:02.045 [info] Open repository: /home/zjc/xv6-labs-1-2
+2023-08-02 14:49:02.137 [info] > git config --get commit.template [108ms]
+2023-08-02 14:49:02.388 [info] > git config --get commit.template [327ms]
+2023-08-02 14:49:02.388 [info] > git rev-parse --show-toplevel [337ms]
+2023-08-02 14:49:02.476 [info] > git rev-parse --git-dir --git-common-dir [72ms]
+2023-08-02 14:49:02.487 [info] Open repository: /home/zjc/xv6-labs-10
+2023-08-02 14:49:02.522 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/net refs/remotes/net [88ms]
+2023-08-02 14:49:02.533 [info] > git status -z -uall [4ms]
+2023-08-02 14:49:02.534 [info] > git config --get commit.template [23ms]
+2023-08-02 14:49:02.535 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/syscall refs/remotes/syscall [31ms]
+2023-08-02 14:49:02.543 [info] > git rev-parse --show-toplevel [49ms]
+2023-08-02 14:49:02.568 [info] > git status -z -uall [24ms]
+2023-08-02 14:49:02.569 [info] > git rev-parse --git-dir --git-common-dir [21ms]
+2023-08-02 14:49:02.576 [info] Open repository: /home/zjc/xv6-labs-2021
+2023-08-02 14:49:02.639 [info] > git rev-parse --show-toplevel [54ms]
+2023-08-02 14:49:02.639 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-02 14:49:02.652 [info] > git rev-parse --show-toplevel [3ms]
+2023-08-02 14:49:02.652 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-02 14:49:02.658 [info] > git config --get commit.template [22ms]
+2023-08-02 14:49:02.658 [info] > git config --get commit.template [29ms]
+2023-08-02 14:49:02.658 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/mmap refs/remotes/mmap [42ms]
+2023-08-02 14:49:02.674 [info] > git status -z -uall [10ms]
+2023-08-02 14:49:02.693 [info] > git rev-parse --show-toplevel [35ms]
+2023-08-02 14:49:02.693 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-02 14:49:02.761 [info] > git rev-parse --show-toplevel [64ms]
+2023-08-02 14:49:02.761 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-02 14:49:02.842 [info] > git rev-parse --show-toplevel [75ms]
+2023-08-02 14:49:02.842 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-02 14:49:02.858 [info] > git config --get commit.template [98ms]
+2023-08-02 14:49:02.858 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/syscall refs/remotes/syscall [105ms]
+2023-08-02 14:49:02.870 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/syscall refs/remotes/syscall [129ms]
+2023-08-02 14:49:03.042 [info] > git status -z -uall [173ms]
+2023-08-02 14:49:03.042 [info] > git status -z -uall [161ms]
+2023-08-02 14:49:03.043 [info] > git check-ignore -v -z --stdin [72ms]
+2023-08-02 14:49:03.055 [info] > git check-ignore -v -z --stdin [67ms]
+2023-08-02 14:49:03.080 [info] > git rev-parse --show-toplevel [224ms]
+2023-08-02 14:49:03.081 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-02 14:49:03.114 [info] > git rev-parse --show-toplevel [22ms]
+2023-08-02 14:49:03.114 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-02 14:49:03.121 [info] > git config --get commit.template [11ms]
+2023-08-02 14:49:03.121 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/mmap refs/remotes/mmap [19ms]
+2023-08-02 14:49:03.143 [info] > git status -z -uall [15ms]
+2023-08-02 14:49:03.160 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/syscall refs/remotes/syscall [18ms]
+2023-08-02 14:49:03.177 [info] > git status -z -uall [12ms]
+2023-08-02 14:49:04.243 [info] > git show --textconv :kernel/e1000.c [34ms]
+2023-08-02 14:49:04.249 [info] > git ls-files --stage -- /home/zjc/xv6-labs-7/xv6-labs-2021/kernel/e1000.c [9ms]
+2023-08-02 14:49:04.287 [info] > git cat-file -s 70a2adf968a645086a43e3b0136d97f3ce2b39b9 [3ms]
